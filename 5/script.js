@@ -37,11 +37,11 @@ function postData(url, data) {
 }
 
 const dataToPost = {
-  title: "Coffee Name", // Expected field
-  description: "A great coffee", // Expected field
-  ingredients: ["coffee", "milk", "sugar"], // Expected field (array)
-  image: "coffee_image_url", // Expected field (string)
-  id: 123, // Expected field (number)
+  title: "Coffee Name",
+  description: "A great coffee",
+  ingredients: ["coffee", "milk", "sugar"],
+  image: "coffee_image_url",
+  id: 123,
 };
 
 postData(apiUrl, dataToPost);
