@@ -33,7 +33,7 @@ function postData(url, data) {
   })
     .then((response) => response.json())
     .then((data) => console.log(data))
-    .catch((error) => console.error("Error", error));
+    .catch((error) => console.error("Error:", error));
 }
 
 const dataToPost = {
