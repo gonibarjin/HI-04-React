@@ -1,7 +1,7 @@
 import "./App.css";
 import "./MyComponent";
 import MyComponent from "./MyComponent";
-import PersonComponent from "./PersonComponent";
+import ChildComponent from "./ChildComponent";
 
 function App() {
   const person = {
@@ -21,7 +21,7 @@ function App() {
       </header>
       <MyComponent />
       {/* TODO create a child component in proper jsx, the component takes the person object as props and render the data */}
-      <PersonComponent person={person} />
+      <ChildComponent person={person} />
     </div>
   );
 }

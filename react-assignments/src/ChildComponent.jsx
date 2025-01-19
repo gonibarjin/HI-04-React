@@ -1,4 +1,4 @@
-function PersonComponent({ person }) {
+function ChildComponent({ person }) {
   return (
     <div>
       <p>name: {person.name}</p>
@@ -9,4 +9,4 @@ function PersonComponent({ person }) {
     </div>
   );
 }
-export default PersonComponent;
+export default ChildComponent;
